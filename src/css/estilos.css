@@ -1,0 +1,246 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #61615fec;
+    color: #61615fec;
+}
+
+body.modo-pyro{
+    background-color: orangered;
+    color: #61615fec;
+}
+
+body.modo-hidro{
+    background-color: aqua;
+    color: #61615fec;
+}
+
+body.modo-anemo{
+    background-color: rgb(146, 218, 210);
+    color: #61615fec;
+}
+
+body.modo-electro{
+    background-color: purple;
+    color: #f5f5f5;
+}
+
+body.modo-dendro{
+    background-color: greenyellow;
+    color: #61615fec;
+}
+
+body.modo-cryo{
+    background-color:azure;
+    color: #61615fec
+}
+
+body.modo-geo{
+    background-color: rgb(161, 161, 4);
+    color:#61615fec
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+harder .imagem-botao{
+    width: 30px;
+    transition: 0.2s ease-in-out;
+    background-color: none;
+}
+
+header .logo{
+    width: 150px;
+    transition: 0.2s ease-in-out;
+    
+}
+
+header #botao-pyro-tema,
+header #botao-hidro-tema,
+header #botao-anemo-tema,
+header #botao-electro-tema,
+header #botao-dendro-tema,
+header #botao-cryo-tema,
+header #botao-geo-tema{
+    background:none;
+    border: none;
+}
+
+header .logo:hover,
+header .imagem-botao:hover,
+main .waifu:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main{
+    padding: 25px;
+}
+
+main .listagem-waifu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content:center;
+}
+
+main .waifu{
+    background-color: #d8e3ec;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .waifu:hover{
+    background-color: #96d9e6;
+    color: black
+}
+
+.modo-pyro .waifu{
+    background-color: red;
+}
+
+.modo-hidro .waifu{
+    background-color: blue;
+}
+
+.modo-anemo .waifu{
+    background-color: rgb(36, 73, 101);
+}
+
+.modo-electro .waifu{
+    background-color: rgb(168, 81, 168);
+}
+
+.modo-dendro .waifu{
+    background-color: green;
+}
+
+.modo-cryo .waifu{
+    background-color: whitesmoke;
+}
+
+.modo-geo .waifu{
+    background-color: brown;
+}
+
+main .waifu .informacoes{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+body .modo-mondstadt:hover{
+    background-image: url("../imagens/mondstadt.jpg");
+}
+
+body .modo-liyue{
+    background-image: url("../imagens/liyue.jpeg");
+}
+
+body .modo-inazuma{
+    background-image: url("../imagens/inazuma.jpeg");
+}
+
+body .modo-sumero{
+    background-image: url("../imagens/sumeru.webp");
+}
+
+main .waifu .informacoes span{
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+main .waifu .gif{
+    width: 200px;
+    height: 200px
+}
+
+main .arma{
+    width: 100px;
+    height: 100px
+}
+
+main .waifu .elemento{
+    display: flex;
+    gap: 15px;
+}
+
+body {
+    background-image: url(../imagens/genshin\ impact.png);
+}
+
+main .waifu .elemento{
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.pyro{
+    background-color: #ee8130;
+    border-radius: 5px;
+}
+
+.hidro{
+    background-color: #6390f0;
+    border-radius: 5px;
+}
+
+.anemo{
+    background-color:rgb(150, 190, 150);
+    border-radius: 5px;
+}
+
+.electro{
+    background-color: #df67ddfb;
+    border-radius: 5px;
+}
+
+.cryo{
+    background-color:#abbce1;
+    border-radius: 5px;
+}
+
+.geo{
+    background-color: rgb(157, 63, 63);
+    border-radius: 5px;
+}
+
+.mondstadt{
+    text-transform: uppercase;
+    background-color: rgb(150, 190, 150);
+    border-radius: 5px;
+}
+.liyue{
+    text-transform: uppercase;
+    background-color: rgb(157, 63, 63);
+    border-radius: 5px;
+}
+.inazuma{
+    text-transform: uppercase;
+    background-color: #df67ddfb;
+    border-radius: 5px;
+}
+.sumero{
+    text-transform: uppercase;
+    background-color: green;
+    border-radius: 5px;
+}
+
+main .descricao{
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+    color:#333333
+}
